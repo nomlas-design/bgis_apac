@@ -1,0 +1,11 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="img" class="absolute left-1/2 bottom-0 transform translate-x-1/2 translate-y-1/2 z-10 stroke-brand-secondary fill-none" width="20" height="117"><defs><symbol id="icon-arrow-down-longer" iconset="ui" viewBox="0 0 21.414 118.207">
+        <title>Arrow - Down - Very Long</title>
+        <desc>An icon showing a very long arrow pointing down</desc>
+        <g transform="translate(0.707 0.5)">
+            <line id="Line_7" data-name="Line 7" y2="117" transform="translate(10)" stroke-linecap="round" stroke-width="1"></line>
+            <g id="Group_10" data-name="Group 10" transform="translate(-919.5 -916.5)">
+                <line x2="10" y2="10" transform="translate(919.5 1023.5)" stroke-linecap="round" stroke-width="1"></line>
+                <line x1="10" y2="10" transform="translate(929.5 1023.5)" stroke-linecap="round" stroke-width="1"></line>
+            </g>
+        </g>
+    </symbol></defs><use xlink:href="#icon-arrow-down-longer" stroke="#7799C2" fill-opacity="0" fill="#000000"></use></svg>

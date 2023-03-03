@@ -1,0 +1,31 @@
+.posts__sidebar {
+  .posts__filter_form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    label {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      input {
+        height: 27px;
+        width: 27px;
+        color: #3b82f6;
+        appearance: none;
+        display: inline-block;
+        border: 1px solid $primaryBlue;
+        border-radius: 3px;
+
+        &:checked {
+          background-color: $primaryBlue;
+        }
+      }
+
+      span {
+        font-size: $text-sm;
+      }
+    }
+  }
+}

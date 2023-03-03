@@ -1,0 +1,11 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="img" class="stroke-green fill-none" width="20" height="20"><defs><symbol id="icon-circled-checkmark" iconset="ui" viewBox="0 0 34 34">
+        <title>Checkmark</title>
+        <desc>An icon of a checkmark inside a circle</desc>
+        <g transform="translate(-974 -2187)">
+            <g transform="translate(974 2187)" fill="none" stroke-width="2">
+                <circle cx="17" cy="17" r="17" stroke="none"></circle>
+                <circle cx="17" cy="17" r="16" fill="none"></circle>
+            </g>
+            <path d="M278.659,2209.567l4.052,4.052,7.948-7.948" transform="translate(706.841 -5.171)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+        </g>
+    </symbol></defs><use xlink:href="#icon-circled-checkmark" stroke="#4EB254" fill-opacity="0" fill="#000000"></use></svg>

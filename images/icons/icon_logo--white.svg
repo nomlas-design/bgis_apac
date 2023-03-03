@@ -1,0 +1,5 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="img" class="stroke-none fill-white w-60 h-auto lg:w-95 lg:h-110" width="95" height="110"><defs><symbol id="icon-bgis-logo-circumflex-original" iconset="ui" viewBox="0 0 94.686 110">
+        <title>Logo</title>
+        <desc>An icon showing a portion of the BGIS logo</desc>
+        <path d="M0,110C0,85.677,15.3,64.33,38.344,52.225,18.28,40.52,4.749,21.545,3.209,0H37.851c9.363,22.213,30.788,38.741,56.769,42.526a99.051,99.051,0,0,0-12.352-.846A94.5,94.5,0,0,0,38.344,52.225,94.5,94.5,0,0,1,82.267,41.68a99.051,99.051,0,0,1,12.352.846l.066.01V63.949C66.071,66.987,42.442,85.262,33.589,110ZM85.231,64.541c3.12,0,6.138-.278,9.162-.565C91.369,64.263,88.35,64.541,85.231,64.541Zm-.817,0a92.994,92.994,0,0,1-46.07-12.313A92.991,92.991,0,0,0,84.414,64.538ZM38.344,52.225Z" fill="#fff"></path>
+    </symbol></defs><use xlink:href="#icon-bgis-logo-circumflex-original" stroke-opacity="0" stroke="#000000" fill="#FFFFFF"></use></svg>

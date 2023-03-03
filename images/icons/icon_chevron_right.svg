@@ -1,0 +1,8 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="img" class="absolute -left-sm top-xs stroke-brand-secondary" width="6" height="11"><defs><symbol id="icon-chevron-right" iconset="ui" viewBox="0 0 6.414 11.414">
+        <title>Chevron - Right</title>
+        <desc>An icon showing a chevron pointing right</desc>
+        <g transform="translate(-244.793 -795.793)">
+            <line x2="5" y2="5" transform="translate(245.5 796.5)" stroke-linecap="round" stroke-width="1"></line>
+            <line y1="5" x2="5" transform="translate(245.5 801.5)" stroke-linecap="round" stroke-width="1"></line>
+        </g>
+    </symbol></defs><use xlink:href="#icon-chevron-right" stroke="#7799C2"></use></svg>

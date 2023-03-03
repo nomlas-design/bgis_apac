@@ -1,0 +1,85 @@
+.wrapper--footer {
+  margin-top: auto;
+  position: relative;
+  padding-top: 6.25rem;
+  padding-bottom: 3.125rem;
+  background-color: $primaryBlue;
+  color: white;
+  font-size: $text-md;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    width: 100%;
+    background-color: transparent;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    content: '';
+    background-size: auto 100%;
+    background-image: url(../images/banners/line-art.png);
+  }
+
+  .container--footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1.563rem;
+
+    .footer__logo {
+      width: 200px;
+      grid-column: 1 / -1;
+      margin-bottom: 3.2rem;
+    }
+
+    .footer__column {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+
+      .footer__links {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+
+        .footer__link {
+          font-size: $text-sm;
+          line-height: 1.75;
+
+          &:hover {
+            color: $yellow;
+          }
+        }
+      }
+
+      .footer__header {
+        position: relative;
+        text-transform: uppercase;
+        font-weight: 500;
+        padding-bottom: 0.938rem;
+        margin-bottom: 1.75rem;
+
+        &__icon {
+          position: absolute;
+          top: 0.28rem;
+          left: -1.25rem;
+        }
+
+        &::after {
+          content: '';
+          display: block;
+          width: 40px;
+          height: 3px;
+          background-color: $yellow;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+        }
+
+        &:hover {
+          color: $yellow;
+        }
+      }
+    }
+  }
+}

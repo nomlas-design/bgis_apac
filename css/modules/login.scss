@@ -1,0 +1,19 @@
+/* Customize Login Screen */
+
+.login h1 a {
+  background-image: url('http://170.64.152.41/wp-content/uploads/2022/11/logo-main.png');
+  width: 200px;
+  background-position: center;
+  background-size: contain;
+}
+
+body.login .button-primary {
+  background-color: $primaryBlue;
+  transition: background-color 0.2s ease-in-out;
+}
+
+body.login .button-primary:active,
+body.login .button-primary:focus,
+body.login .button-primary:hover {
+  background-color: $secondaryBlue;
+}

@@ -1,0 +1,8 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="img" class="stroke-brand-secondary fill-none" width="20" height="10"><defs><symbol id="icon-chevron-up" iconset="ui" viewBox="0 0 24.243 14.242">
+        <title>Chevron - Up</title>
+        <desc>An icon showing a chevron pointing up</desc>
+        <g transform="translate(-1690.379 -6682.379)">
+            <line x1="10" y2="10" transform="translate(1692.5 6684.5)" stroke-linecap="round" stroke-width="3"></line>
+            <line x2="10" y2="10" transform="translate(1702.5 6684.5)" stroke-linecap="round" stroke-width="3"></line>
+        </g>
+    </symbol></defs><use xlink:href="#icon-chevron-up" stroke="#7799C2" fill-opacity="0" fill="#000000"></use></svg>

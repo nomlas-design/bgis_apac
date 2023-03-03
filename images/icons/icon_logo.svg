@@ -1,0 +1,9 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="img" class="stroke-none fill-white mx-sm" width="95" height="110"><defs><symbol id="icon-bgis-logo-circumflex" iconset="ui" viewBox="0 0 17.355 20">
+        <title>Logo</title>
+        <desc>An icon showing a portion of the BGIS logo</desc>
+        <g transform="translate(20465.814 -3209)">
+            <path d="M1509.242,528.672c-4.224,2.2-7.029,6.082-7.029,10.5h6.157a13.22,13.22,0,0,1,11.2-8.373c-.572.054-1.143.108-1.733.108A17.172,17.172,0,0,1,1509.242,528.672Z" transform="translate(-21968.027 2689.823)" fill="#093c71"></path>
+            <path d="M1532.173,323.224a13.27,13.27,0,0,1-10.406-7.732h-6.35a12.212,12.212,0,0,0,6.44,9.5,17.437,17.437,0,0,1,8.051-1.917A18.311,18.311,0,0,1,1532.173,323.224Z" transform="translate(-21980.643 2893.508)" fill="#5787b4"></path>
+            <path d="M1668.058,485.629a17.437,17.437,0,0,0-8.051,1.917,17.172,17.172,0,0,0,8.594,2.239c.59,0,1.161-.054,1.733-.108v-3.893l-.012,0A18.311,18.311,0,0,0,1668.058,485.629Z" transform="translate(-22118.793 2730.949)" fill="#042050"></path>
+        </g>
+    </symbol></defs><use xlink:href="#icon-bgis-logo-circumflex" stroke-opacity="0" stroke="#000000" fill="#FFFFFF"></use></svg>

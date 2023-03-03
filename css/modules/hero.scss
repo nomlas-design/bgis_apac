@@ -1,0 +1,131 @@
+.wrapper--hero {
+  background-color: $primaryBlue;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  padding: 6.875rem $padding;
+  min-height: 70vh;
+
+  &.wrapper--gradient {
+    &::before {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      z-index: 0;
+      width: 100%;
+      content: '';
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.56),
+        rgba(0, 0, 0, 0.43)
+      );
+    }
+  }
+
+  &::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    width: 100%;
+    background-color: transparent;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    content: '';
+    background-size: auto 100%;
+    background-image: url(../images/banners/line-art.png);
+  }
+
+  @include medium {
+    min-height: 0;
+    padding: 16.75rem $padding;
+  }
+
+  .container--hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &--centered {
+      align-items: center;
+    }
+
+    &--left {
+      align-items: flex-start;
+    }
+  }
+
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: $padding;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
+    @include medium {
+      width: 66.6666666667%;
+    }
+
+    &--left {
+      text-align: left;
+      align-items: flex-start;
+
+      @include medium {
+        width: 50%;
+      }
+    }
+  }
+
+  .hero__content--media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.75rem;
+    width: 100%;
+    text-align: left;
+
+    .headline {
+      align-self: center;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .hero__arrow {
+    background: url('../images/icons/icon_long_arrow__down.svg') no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 60px;
+    margin: 4.688rem 0;
+
+    &--absolute {
+      position: absolute;
+      bottom: -58px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+    }
+  }
+}
+
+.wrapper--media {
+  padding-bottom: 0;
+}
+
+.wrapper--arrow {
+  padding-bottom: 4.688rem;
+}
+
+.container--hero .headline {
+  color: white;
+}
+
+.container--hero p {
+  margin: 0;
+  font-size: $text-lg;
+  line-height: 2rem;
+}

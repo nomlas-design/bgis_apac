@@ -1,0 +1,169 @@
+@mixin smallest {
+  @media (min-width: 640px) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (min-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin largest {
+  @media (min-width: 1552px) {
+    @content;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  //overflow-x: hidden;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 1.1;
+  margin: 0;
+}
+
+p,
+div {
+  font-size: $text-md;
+  line-height: 1.65;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p a {
+  color: $primaryBlue;
+  transition: color 0.1s ease-out;
+
+  &:hover {
+    color: $secondaryBlue;
+  }
+}
+
+.headline {
+  margin: 0;
+  letter-spacing: 0;
+  font-weight: 700;
+  font-size: $heading-md;
+  color: $text;
+  line-height: 1.1;
+
+  &--xsmall {
+    font-size: $heading-xsm;
+  }
+
+  &--small {
+    font-size: $heading-sm;
+  }
+
+  &--large {
+    font-size: $heading-lg;
+  }
+
+  &--xlarge {
+    @include medium {
+      font-size: $heading-xlg;
+    }
+  }
+}
+
+.text-md {
+  font-size: $text-md;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom-width: 1px;
+  background-color: transparent;
+  padding: 1rem 0;
+}
+
+/* Layout */
+
+.section {
+  padding: 12.5rem 0rem;
+
+  &--blue {
+    background: $primaryBlue;
+  }
+
+  &--media {
+    margin-top: 8.75rem;
+  }
+
+  &--top {
+    padding: 0;
+  }
+
+  &--padding {
+    padding-top: 9.375rem;
+    padding-bottom: 10.625rem;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 $padding;
+}
+
+.container {
+  max-width: 1552px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
